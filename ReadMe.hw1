@@ -2,15 +2,10 @@ CMPE 131 - Homework 1: HTML Resume
 
 Created for the purpose of practicing and developing front-end hmtl development skills
 
-Status:
-- Working on reducing the width of the page
-- Working on realigning the introduction video on the page
-
 Features:
 - Basic Resume Text Elements
 - Headshot Photo
 - Embedded Short Introduction Video
-- Dropdown Menu Linking to Two Past Projects
 - Password protected Transcript html file
 
 How to Access:
