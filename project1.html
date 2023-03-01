@@ -1,0 +1,37 @@
+<html>
+    <head> 
+        <title> Binary - Hex - Decimal convertor </title>
+    </head>
+
+    <body>
+        <h1> Binary - Hex - Decimal convertor </h1>
+    </body>
+
+    <body>
+        <h3> Description </h3>
+        <p> This is a rudimentary C++ executable I designed in my first semester to convert between different formats to aid with schoolwork. 
+            I implemented basic and repetetive arithemtic operations to convert between any two formats.
+            The required input is the number to be converted along with the current and desired format. 
+            The conversion from binary decimal is staright forward. Each digit is converted separately then summed together to obtain the final result. 
+            However each hex conversion is done in sets of 4 digits where each set is converted to decimal first then it is converted to hex through a pre-set index. 
+            This works becasuse each binary set of four has a maximum value of 15. 
+            The decimal to hex conversion is also fairly straight forward; I simply divide by 16 till the quotient is smaller than 16, then convert to hex based on the same index. 
+            Repeat this process till the quotient is no longer divisible by 16.
+            These processes done on reverse order give me the conversion for hex to binary and hex to decimal respectively.
+        </p>
+        <br>
+    </body>
+
+    <body>
+        <h3> Features </h3>
+        <ul>
+            <li> Select any format to begin with, hex/binary/decimal in input. </li>
+            <li> Select any format to convert into. </li>
+            <li> keep track of result for further conversion. </li>
+        </ul>
+        <h3> Limitations </h3>
+        <ul>
+            <li> Each conversion is done arithmetically which might be wasting processing time and computing resources. Could be imporved using pre defined functions. </li>
+        </ul>
+    </body>
+</html>
