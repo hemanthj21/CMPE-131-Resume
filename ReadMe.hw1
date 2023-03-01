@@ -1,14 +1,6 @@
-CMPE 131 - Homework 1: HTML Resume
+Homework 1: HTML Resume
 
-Created for the purpose of practicing and developing front-end hmtl development skills
-
-Features:
-- Basic Resume Text Elements
-- Headshot Photo
-- Embedded Short Introduction Video
-- Password protected Transcript html file
-
-How to Access:
-1. Keep all included files in the same folder
-2. Open Resume.html (This is the equivalent of the home page)
-3. Navigate as you please
+Keep all included files in the same folder
+Open Resume.html
+Can open transcript link and access using password "frankbutt"
+Can access projects through drop down menu
